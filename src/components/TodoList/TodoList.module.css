@@ -1,0 +1,11 @@
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+
+.loading {
+    font-size: 3.2rem;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.header {
+    min-height: 8rem;
+    font-size: 2rem;
+    color: rgba(0,0,0,.75);
+    font-weight: 500;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navList li:hover {
+    transition: all 0.3s ease;
+    color: #000;
+}
+
+.active {
+    color: #000;
+}

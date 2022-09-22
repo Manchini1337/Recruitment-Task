@@ -1,0 +1,18 @@
+.post {
+    min-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #eee;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 60rem) {
+    .post {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+}
